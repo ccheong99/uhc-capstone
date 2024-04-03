@@ -1,0 +1,248 @@
+@font-face { font-family: CircularStd-Black; src: url('font/Circular/CircularStd-Black.otf'); } 
+@font-face { font-family: CircularStd-Book; src: url('font/Circular/CircularStd-Book.otf'); } 
+@font-face { font-family: CircularStd-Medium; src: url('font/Circular/CircularStd-Medium.otf'); } 
+@font-face { font-family: CircularStd-Light; src: url('font/Circular/CircularStd-Light.otf'); } 
+
+/*Responsive Design*/ 
+
+@media only screen and (max-width: 600px) {
+    .header-button {
+        margin-left: 24px;
+    }
+    .menu {
+        margin-right: 24px;
+    }
+    .menu-list {
+        display: none !important;
+    }
+    .hamburger-menu {
+        display: block !important;
+    }
+    .mobile-description-text {
+        display: block !important;
+    }
+    .mobile-linkedin {
+        display: block !important;
+    }
+    .content {
+        width: 100%;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .member-list {
+        margin-top: 72px;
+        display: block !important;
+        width: 100% !important;
+    }
+    .member-selection {
+        margin-bottom: 54px;
+        /*margin-left: 24px;
+        margin-right: 24px;*/
+    }
+    h1 {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    h2 {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .header-button {
+        margin-left: 40px;
+    }
+    .menu {
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .header-button {
+        margin-left: 80px;
+    }
+    .menu {
+        margin-right: 80px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .header-button {
+        margin-left: 80px;
+    }
+    .menu {
+        margin-right: 80px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .header-button {
+        margin-left: 160px;
+    }
+    .menu {
+        margin-right: 160px;
+    }
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    background-color: #FAFBFC;
+    overflow-x: hidden;
+    font-family: 'CircularStd-Book';
+}
+
+* {
+    margin: 0;
+    border: 0;
+  }
+
+/*header*/
+.nav-up {
+    top: -88px;
+}
+
+header {
+    z-index: 3;
+    background-color: #FAFAFA;
+    position: fixed;
+    top: 0;
+    -webkit-transition: top 0.2s ease-in-out;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+    height: 88px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+.header {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Merriweather', serif;
+    }
+
+.header-button:hover {
+    opacity: 50%;
+}
+
+.menu {
+    font-size: 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 300;
+    font-size: 13px;
+    font-family: 'CircularStd-Book';
+}
+
+a {
+    margin-right: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger-menu {
+    width: 32px;
+    display: none;
+}
+
+.menu-list {
+    display: inline-block;
+    position: relative;
+}
+
+#logo {
+    height: 40px;
+}
+
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    margin-top: 160px;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'CircularStd-Medium';
+    color: #EF3B42;
+}
+h2 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 12px;
+}
+.member-list {
+    margin-top: 72px;
+    display: flex;
+    width: 830px;
+    justify-content: space-between;
+}
+.member-name {
+    margin-top: 16px;
+    text-align: center;
+}
+.member-img {
+    width: 150px;
+}
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.member-description {
+    margin-bottom: 26px;
+    width: 830px;
+    display: none;
+}
+.description-text {
+    margin-top: 54px;
+    margin-bottom: 26px;
+}
+.linkedin {
+    text-decoration: underline;
+}
+
+.mobile-description-text {
+    margin-top: 54px;
+    margin-bottom: 26px;
+    display: none;
+}
+.mobile-linkedin {
+    display: none;
+    text-decoration: underline;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 132px;
+    color: #B9B9B9;
+}
+#footer-text{
+    font-size: 12px;
+}
