@@ -215,6 +215,7 @@ h1 {
 h2 {
     font-size: 22px;
     text-align: center;
+    font-family: 'circular_stdlight';
     margin-top: 12px;
 }
 .member-list {
