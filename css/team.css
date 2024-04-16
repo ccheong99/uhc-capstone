@@ -1,7 +1,32 @@
-@font-face { font-family: CircularStd-Black; src: url('font/Circular/CircularStd-Black.otf'); } 
+/*@font-face { font-family: CircularStd-Black; src: url('font/Circular/CircularStd-Black.otf'); } 
 @font-face { font-family: CircularStd-Book; src: url('font/Circular/CircularStd-Book.otf'); } 
 @font-face { font-family: CircularStd-Medium; src: url('font/Circular/CircularStd-Medium.otf'); } 
-@font-face { font-family: CircularStd-Light; src: url('font/Circular/CircularStd-Light.otf'); } 
+@font-face { font-family: CircularStd-Light; src: url('font/Circular/CircularStd-Light.otf'); }*/
+@font-face {
+    font-family: 'circular_stdmedium';
+    src: url('font/webfontkit/circularstd-medium-webfont.woff2') format('woff2'),
+         url('font/webfontkit/circularstd-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'circular_stdlight';
+    src: url('circularstd-light-webfont.woff2') format('woff2'),
+         url('circularstd-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'circular_stdlight_italic';
+    src: url('circularstd-light_italic-webfont.woff2') format('woff2'),
+         url('circularstd-light_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'circular_stdbook';
+    src: url('font/webfontkit/circularstd-book-webfont.woff2') format('woff2'),
+         url('font/webfontkit/circularstd-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*Responsive Design*/ 
 
