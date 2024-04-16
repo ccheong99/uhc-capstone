@@ -1,7 +1,3 @@
-@font-face { font-family: CircularStd-Black; src: url('font/Circular/CircularStd-Black.otf'); } 
-@font-face { font-family: CircularStd-Book; src: url('font/Circular/CircularStd-Book.otf'); } 
-@font-face { font-family: CircularStd-Medium; src: url('font/Circular/CircularStd-Medium.otf'); } 
-@font-face { font-family: CircularStd-Light; src: url('font/Circular/CircularStd-Light.otf'); }
 @font-face {
     font-family: 'circular_stdlight';
     src: url('../font/webfontkit/circularstd-light_webfont.woff2') format('woff2'),
