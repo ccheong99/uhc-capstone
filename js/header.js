@@ -42,7 +42,6 @@ function hasScrolled() {
 document.addEventListener('DOMContentLoaded', function () {
     const hamburgerMenu = document.getElementById('hamburger-menu');
     const expandingMenu = document.getElementById('expanding-menu');
-    const closeButton = document.getElementById('close-button');
 
     hamburgerMenu.addEventListener('click', function () {
         if (expandingMenu.style.display === 'none') {
@@ -52,10 +51,5 @@ document.addEventListener('DOMContentLoaded', function () {
             expandingMenu.style.display = 'none';
             hamburgerMenu.src = 'img/hamburger-menu.png'; // Change src back to hamburger-menu.png
         }
-    });
-
-    closeButton.addEventListener('click', function () {
-        expandingMenu.style.display = 'none';
-        hamburgerMenu.src = 'img/hamburger-menu.png'; // Change src back to hamburger-menu.png
     });
 });
