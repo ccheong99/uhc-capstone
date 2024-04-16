@@ -119,7 +119,7 @@ html {
 body {
     background-color: #FAFBFC;
     overflow-x: hidden;
-    font-family: 'CircularStd-Book';
+    font-family: 'circular_stdbook';
 }
 
 * {
@@ -174,7 +174,7 @@ header {
     display: flex;
     font-weight: 300;
     font-size: 13px;
-    font-family: 'CircularStd-Book';
+    font-family: 'circular_stdbook';
 }
 
 a {
@@ -209,7 +209,7 @@ a {
 h1 {
     font-size: 36px;
     text-align: center;
-    font-family: 'CircularStd-Medium';
+    font-family: 'circular_stdmedium';
     color: #EF3B42;
 }
 h2 {
