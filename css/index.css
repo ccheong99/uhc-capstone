@@ -131,7 +131,7 @@ html {
 body {
     background-color: #FAFBFC;
     overflow-x: hidden;
-    font-family: 'CircularStd-Book';
+    font-family: 'circular-stdbook';
 }
 
 * {
@@ -186,7 +186,7 @@ header {
     display: flex;
     font-weight: 300;
     font-size: 13px;
-    font-family: 'CircularStd-Book';
+    font-family: 'circular-stdbook';
 }
 
 a {
