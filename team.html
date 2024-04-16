@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/team.css" type="text/css" charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/team.js" defer></script>
     <script src="js/header.js" defer></script>
     <title>Team</title>
@@ -22,7 +23,13 @@
                 <a class = "menu-list" href="research.html">Research</a>
                 <a class = "menu-list" href="design.html">Design</a>
                 <a class = "menu-list" href="team.html" style = "color: #EF3B42; font-family: 'circular_stdbold';">Team</a>
-                <img class = "hamburger-menu" src = "img/hamburger-menu.png">
+                <img class = "hamburger-menu" id = "hamburger-menu" src = "img/hamburger-menu.png">
+                <div class = "expanding-menu" id = "expanding-menu">
+                    <a href="index.html">Story</a>
+                    <a href="research.html">Research</a>
+                    <a href="design.html">Design</a>
+                    <a href="team.html" style = "color: #EF3B42; font-family: 'circular_stdbold';">Team</a>
+                </div>
             </div>
         </div>
     </header>

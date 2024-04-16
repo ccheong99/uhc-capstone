@@ -36,3 +36,26 @@ function hasScrolled() {
     
     lastScrollTop = st;
 }
+
+
+// Expanding Menu
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    const expandingMenu = document.getElementById('expanding-menu');
+    const closeButton = document.getElementById('close-button');
+
+    hamburgerMenu.addEventListener('click', function () {
+        if (expandingMenu.style.display === 'none') {
+            expandingMenu.style.display = 'flex';
+            hamburgerMenu.src = 'img/close-button.png'; // Change src to close-button.png
+        } else {
+            expandingMenu.style.display = 'none';
+            hamburgerMenu.src = 'img/hamburger-menu.png'; // Change src back to hamburger-menu.png
+        }
+    });
+
+    closeButton.addEventListener('click', function () {
+        expandingMenu.style.display = 'none';
+        hamburgerMenu.src = 'img/hamburger-menu.png'; // Change src back to hamburger-menu.png
+    });
+});
