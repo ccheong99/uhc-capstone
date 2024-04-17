@@ -131,7 +131,7 @@ html {
 body {
     background-color: #FAFBFC;
     overflow-x: hidden;
-    font-family: 'circular-stdbook';
+    font-family: 'circular_stdbook';
 }
 
 * {
@@ -186,7 +186,7 @@ header {
     display: flex;
     font-weight: 300;
     font-size: 13px;
-    font-family: 'circular-stdbook';
+    font-family: 'circular_stdbook';
 }
 
 a {
@@ -231,6 +231,198 @@ a {
 }
 
 
+/*body*/
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    margin-top: 160px;
+}
+section {
+    padding-right: 160px;
+    padding-left: 160px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: 36px;
+    text-align: center;
+    font-family: 'circular_stdmedium';
+    color: #EF3B42;
+    margin-bottom: 60px;
+}
+.title-number {
+    width: 100%;
+    text-align: center;
+    color: #EF3B42;
+    font-family: 'circular_stdbold';
+    opacity: 50%;
+    margin-bottom: 8px;
+}
+.section-text {
+    width: 830px;
+}
+section p {
+    width: 830px;
+    font-family: 'circular_stdbook';
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+
+.problem-box-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+}
+.problem-icon {
+    width: 54px;
+    margin-bottom: 40px;
+}
+.problem-box-item {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.problem-box-text {
+    text-align: center;
+    width: 300px;
+}
+.hmw-item {
+    margin-bottom: 48px;
+}
+.hmw-text {
+    text-align: center;
+    font-size: 24px;
+}
+.left-quotation-mark {
+    width: 36px;
+}
+.right-quotation-mark {
+    width: 36px;
+}
+.right-quotation-mark-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+}
+
+.process-box-list {
+    width: 100%;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.process-box {
+    width: 264px;
+    height: 300px;
+    border-radius: 12px;
+}
+.process-box:hover {
+    box-shadow: 0 0 12px rgba(33,33,33,.3); 
+}
+.process-box-title {
+    text-align: center;
+    color: #FFF5F5;
+    font-size: 42px;
+    font-family: 'circular_stdmedium';
+}
+.process-box-subtitle {
+    margin-top: 12px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'circular_stdmedium';
+}
+#process-box1 {
+    background-image: url("../img/process-photo1.png");
+    background-size: contain;
+}
+#process-box2 {
+    background-image: url("../img/process-photo2.png");
+    background-size: contain;
+}
+#process-box3 {
+    background-image: url("../img/process-photo3.png");
+    background-size: contain;
+}
+#process-box4 {
+    background-image: url("../img/process-photo4.png");
+    background-size: contain;
+}
+
+.insight-list {
+    width: 830px;
+}
+.list-item {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-right: 42px;
+    padding-left: 42px;
+    background-color: #EF3B42;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-family: 'circular_stdbook';
+}
+.list-item:hover {
+    box-shadow: 0 0 12px rgba(33,33,33,.3); 
+}
+.list-item-top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+.list-item-tag {
+    background-color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 100px;
+    width: fit-content;
+    color: #EF3B42;
+    font-size: 16px;
+    font-family: 'circular_stdmedium';
+}
+.list-item-text {
+    width: 100%;
+    margin-top: 24px;
+    font-size: 20px;
+    color: white;
+}
+.list-item-number {
+    font-size: 18px;
+    color: white;
+}
+.expand-button {
+    width: 32px;
+    height: 32px;
+}
+.hidden-content {
+    display: none;
+    margin-top: 48px;
+    flex-direction: column;
+}
+.evidence-tag {
+    color: #EF3B42;
+    font-family: 'circular_stdbold';
+}
+.evidence-text {
+    width: 100%;
+}
+
+
+
+
+/*footer*/
 footer {
     display: flex;
     justify-content: center;
