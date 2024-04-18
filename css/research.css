@@ -313,7 +313,7 @@ section p {
 }
 
 .process-box-list {
-    width: 100%;
+    width: 1120px;
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
@@ -325,7 +325,7 @@ section p {
     border-radius: 12px;
 }
 .process-box:hover {
-    box-shadow: 0 0 12px rgba(33,33,33,.3); 
+    box-shadow: 0 0 16px rgba(33,33,33,.4); 
 }
 .process-box-title {
     margin-top: 86px;
@@ -359,6 +359,73 @@ section p {
     background-image: url("../img/process-photo4.png");
     background-size: contain;
 }
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 3; 
+    display: none;
+}
+.popup1, .popup2, .popup3, .popup4 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    max-height: 80%;
+    overflow: scroll;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 40px;
+    padding-bottom: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 4; 
+    display: none; 
+}
+.popup-content {
+    margin-right: 40px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.popup-title {
+    display: flex;
+    justify-content: center;
+    color: #EF3B42;
+    font-family: 'circular_stdmedium';
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+.popup-text {
+    width: 100%;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+.popup-subtitle {
+    width: 100%;
+    color: #EF3B42;
+    font-family: 'circular_stdbold';
+    opacity: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.close-button-container {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    right: 0;
+    padding: 0px; /* Adjust as needed */
+}
+.close-button {
+    width: 32px;
+}
+
+
 
 .insight-list {
     width: 830px;
@@ -376,7 +443,7 @@ section p {
     font-family: 'circular_stdbook';
 }
 .list-item:hover {
-    box-shadow: 0 0 12px rgba(33,33,33,.3); 
+    box-shadow: 0 0 16px rgba(33,33,33,.4); 
 }
 .list-item-top {
     display: flex;

@@ -24,3 +24,46 @@ function toggleExpand(button) {
         HiddenContent.style.display = 'none';
     }
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+    const overlay = document.querySelector('.overlay');
+    const popups = document.querySelectorAll('.popup');
+
+    const processBoxes = document.querySelectorAll('.process-box');
+
+    processBoxes.forEach(function(processBox, index) {
+        processBox.addEventListener('click', function() {
+            // Show overlay
+            overlay.style.display = 'block';
+
+            // Show the specific popup
+            popups[index].style.display = 'block';
+
+            // Prevent scrolling on background
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    // Close the specific popup when overlay is clicked
+    overlay.addEventListener('click', function() {
+        closePopups();
+    });
+
+    // Add event listeners to close buttons within each popup
+    const closeButtons = document.querySelectorAll('.popup .close-button');
+    closeButtons.forEach(function(closeButton) {
+        closeButton.addEventListener('click', function() {
+            closePopups();
+        });
+    });
+
+    function closePopups() {
+        overlay.style.display = 'none';
+        popups.forEach(function(popup) {
+            popup.style.display = 'none';
+        });
+        document.body.style.overflow = 'auto'; // Enable scrolling on background
+    }
+});
+
+
