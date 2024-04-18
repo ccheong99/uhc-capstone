@@ -25,6 +25,31 @@ function toggleExpand(button) {
     }
 }
 
+let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel-container img');
+
+function showSlide(index) {
+  if (index < 0) {
+    currentSlide = slides.length - 1;
+  } else if (index >= slides.length) {
+    currentSlide = 0;
+  }
+  slides.forEach((slide) => (slide.style.display = 'none'));
+  slides[currentSlide].style.display = 'block';
+}
+
+function prevSlide() {
+  currentSlide--;
+  showSlide(currentSlide);
+}
+
+function nextSlide() {
+  currentSlide++;
+  showSlide(currentSlide);
+}
+
+showSlide(currentSlide);
+
 document.addEventListener('DOMContentLoaded', function() {
     const overlay = document.querySelector('.overlay');
     const popups = document.querySelectorAll('.popup');

@@ -424,6 +424,46 @@ section p {
 .close-button {
     width: 32px;
 }
+.carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel-container {
+    display: flex;
+    justify-content: center;
+}
+.carousel img {
+    width: 90%;
+    display: none;
+}
+.carousel img:first-child {
+    display: block;
+}
+.carousel button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    width: 54px;
+    height: 54px;
+}
+.carousel button:hover {
+    background-color: #F5F5F5;
+}
+.prev {
+    width: 48px;
+    left: 0;
+}
+  
+.next {
+    width: 48px;
+    right: 0;
+}
 
 
 
