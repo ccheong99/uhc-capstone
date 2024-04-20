@@ -84,6 +84,9 @@
     .hamburger-menu {
         display: block !important;
     }
+    .process-box-list {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -92,6 +95,9 @@
     }
     .menu {
         margin-right: 40px;
+    }
+    .process-box-list {
+        flex-direction: column;
     }
 }
 
@@ -102,6 +108,9 @@
     .menu {
         margin-right: 80px;
     }
+    .process-box-list {
+        flex-direction: row;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -110,6 +119,9 @@
     }
     .menu {
         margin-right: 80px;
+    }
+    .process-box-list {
+        flex-direction: row;
     }
 }
 
@@ -314,10 +326,15 @@ section p {
 
 .process-box-list {
     width: 1120px;
-    margin-top: 48px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.process-box-list-row {
+    width: 549px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
 }
 .process-box {
     width: 264px;
@@ -460,10 +477,23 @@ section p {
     width: 48px;
     left: 0;
 }
-  
 .next {
     width: 48px;
     right: 0;
+}
+.row {
+    display: flex;
+}
+.number-circle {
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    padding: 6px;
+    background-color: #EF3B42;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    margin-right: 16px;
 }
 
 
