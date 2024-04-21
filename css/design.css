@@ -92,6 +92,16 @@
         margin-left: 24px;
         margin-right: 24px;
     }
+    .section-text {
+        width: 100%;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .page-heading-text {
+        width: 100%;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
     .principle-list {
         margin-top: 72px;
         display: block !important;

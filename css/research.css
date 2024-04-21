@@ -95,7 +95,14 @@
         margin-left: 0px;
     }
     .section-text {
-        width: 80%;
+        width: 100%;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .page-heading-text {
+        width: 100%;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 }
 
