@@ -72,7 +72,7 @@
 /*Responsive Design*/ 
 
 @media only screen and (max-width: 600px) {
-    body {
+    body, html {
         width: 100%;
         overflow-x: hidden;
     }
@@ -282,9 +282,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: yellow;
 }
 .content {
     margin-top: 160px;
+    background-color: grey;
 }
 .page-heading {
     display: flex;
@@ -312,6 +314,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: blue;
 }
 h1 {
     font-size: 36px;
@@ -343,6 +346,7 @@ section p {
     display: flex;
     width: 830px;
     justify-content: space-between;
+    background-color: green;
 }
 .circle {
     display: flex;
@@ -358,6 +362,7 @@ section p {
 }
 .principle-description {
     width: 830px;
+    background-color: honeydew;
     height: 280px;
     display: none;
 }

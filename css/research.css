@@ -72,7 +72,7 @@
 /*Responsive Design*/ 
 
 @media only screen and (max-width: 600px) {
-    body {
+    body, html {
         width: 100%;
         overflow-x: hidden;
     }
