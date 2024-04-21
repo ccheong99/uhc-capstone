@@ -76,6 +76,9 @@
         width: 100%;
         overflow-x: hidden;
     }
+    section {
+        width: 100%;
+    }
     .header-button {
         margin-left: 24px;
     }
