@@ -262,6 +262,25 @@ a {
 .content {
     margin-top: 160px;
 }
+.page-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page-title {
+    font-size: 44px;
+    text-align: center;
+    font-family: 'circular_stdmedium';
+    color: #EF3B42;
+    margin-bottom: 60px;
+}
+.page-heading-text {
+    width: 830px;
+    font-family: 'circular_stdbook';
+    font-size: 16px;
+    line-height: 140%;
+    margin-bottom: 80px;
+}
 section {
     padding-right: 160px;
     padding-left: 160px;
