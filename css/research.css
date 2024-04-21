@@ -99,19 +99,19 @@
         margin-left: 0px;
     }
     .section-text {
-        width: 100%;
-        margin-left: 24px;
-        margin-right: 24px;
+        width: 100% !important;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
     }
     section p {
-        width: 100%;
-        margin-left: 24px;
-        margin-right: 24px;
+        width: 100% !important;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
     }
     .page-heading-text {
-        width: 100%;
-        margin-left: 24px;
-        margin-right: 24px;
+        width: 100% !important;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
     }
     .insight-list {
         width: 100%;
