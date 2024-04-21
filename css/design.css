@@ -97,6 +97,11 @@
         margin-left: 24px;
         margin-right: 24px;
     }
+    section p {
+        width: 100%;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
     .page-heading-text {
         width: 100%;
         margin-left: 24px;
