@@ -87,6 +87,9 @@
     .process-box-list {
         flex-direction: column;
     }
+    .row {
+        flex-direction: column;
+    }
     .popup-content {
         margin-right: 0px;
         margin-left: 0px;
