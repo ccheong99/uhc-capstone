@@ -76,8 +76,11 @@
         width: 100%;
         overflow-x: hidden;
     }
+    .body {
+        width: 100% !important;
+    }
     section {
-        width: 100%;
+        width: 100% !important;
     }
     .header-button {
         margin-left: 24px;
@@ -111,10 +114,13 @@
         margin-left: 24px !important;
         margin-right: 24px !important;
     }
-    .page-heading-text {
+    .page-heading {
         width: 100% !important;
         margin-left: 24px !important;
         margin-right: 24px !important;
+    }
+    .page-heading-text {
+        width: 100% !important;
     }
     .insight-list {
         width: 100%;
