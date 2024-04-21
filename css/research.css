@@ -139,6 +139,12 @@
     .process-box-list {
         flex-direction: column;
     }
+    .insight-list {
+        width: 100%;
+    }
+    .list-item {
+        width: 549px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -149,7 +155,10 @@
         margin-right: 80px;
     }
     .process-box-list {
-        flex-direction: row;
+        flex-direction: column;
+    }
+    .insight-list {
+        width: 830px;
     }
 }
 
@@ -163,6 +172,9 @@
     .process-box-list {
         flex-direction: row;
     }
+    .insight-list {
+        width: 830px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -171,6 +183,9 @@
     }
     .menu {
         margin-right: 160px;
+    }
+    .insight-list {
+        width: 830px;
     }
 }
 
