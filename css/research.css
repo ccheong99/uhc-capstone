@@ -89,10 +89,10 @@
         display: block !important;
     }
     .process-box-list {
-        flex-direction: column;
+        flex-direction: column !important;
     }
     .row {
-        flex-direction: column;
+        flex-direction: column !important;
     }
     .popup-content {
         margin-right: 0px;
