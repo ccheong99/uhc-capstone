@@ -611,12 +611,31 @@ section p {
     margin-top: 48px;
     flex-direction: column;
 }
+.evidence {
+    display: flex;
+    margin-bottom: 20px;
+}
 .evidence-tag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
     color: #EF3B42;
     font-family: 'circular_stdbold';
 }
 .evidence-text {
+    margin-left: 32px;
     width: 100%;
+}
+.insight-text {
+    width: 100%;
+}
+.evidence-tag-text {
+    text-align: center;
+    color: #EF3B42;
+    font-family: 'circular_stdbold';
+    font-size: 14px;
+    opacity: 50%;
 }
 
 
