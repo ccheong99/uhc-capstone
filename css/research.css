@@ -87,6 +87,10 @@
     .process-box-list {
         flex-direction: column;
     }
+    .popup-content {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -488,7 +492,7 @@ section p {
     border-radius: 50%;
     width: 16px;
     height: 16px;
-    padding: 6px;
+    padding: 4px;
     background-color: #EF3B42;
     color: #ffffff;
     text-align: center;
