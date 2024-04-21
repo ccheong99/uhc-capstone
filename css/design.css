@@ -338,13 +338,12 @@ section p {
     font-size: 14px;
 }
 .principle-description {
-    margin-bottom: 26px;
     width: 830px;
+    height: 280px;
     display: none;
 }
 .description-text {
     margin-top: 54px;
-    margin-bottom: 26px;
 }
 .mobile-description-text {
     margin-top: 54px;
