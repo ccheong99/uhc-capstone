@@ -96,8 +96,6 @@
     }
     .content {
         width: 100% !important;
-        margin-left: 24px !important;
-        margin-right: 24px !important;
     }
     .section-text {
         width: 100% !important;
@@ -107,11 +105,11 @@
     }
     .page-heading {
         width: 100% !important;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
     }
     .page-heading-text {
         width: 100% !important;
-        margin-left: 24px !important;
-        margin-right: 24px !important;
     }
     .principle-list {
         margin-top: 72px;
@@ -120,8 +118,9 @@
     }
     .principle-selection {
         margin-bottom: 54px;
-        /*margin-left: 24px;
-        margin-right: 24px;*/
+        width: 100% !important;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
     }
     h1 {
         margin-left: 24px;
