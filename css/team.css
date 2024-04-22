@@ -105,11 +105,11 @@
         /*margin-left: 24px;
         margin-right: 24px;*/
     }
-    h1 {
+    .page-title {
         margin-left: 24px;
         margin-right: 24px;
     }
-    h2 {
+    .page-subtitle {
         margin-left: 24px;
         margin-right: 24px;
     }
@@ -270,13 +270,13 @@ a {
 .content {
     margin-top: 160px;
 }
-h1 {
+.page-title {
     font-size: 44px;
     text-align: center;
     font-family: 'circular_stdmedium';
     color: #EF3B42;
 }
-h2 {
+.page-subtitle {
     font-size: 20px;
     text-align: center;
     margin-top: 20px;
