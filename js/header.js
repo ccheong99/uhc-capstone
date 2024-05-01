@@ -47,9 +47,11 @@ document.addEventListener('DOMContentLoaded', function () {
         if (expandingMenu.style.display === 'none') {
             expandingMenu.style.display = 'flex';
             hamburgerMenu.src = 'img/close-button.png'; // Change src to close-button.png
+            document.body.style.overflowY = 'hidden'; // Disable vertical scrolling
         } else {
             expandingMenu.style.display = 'none';
             hamburgerMenu.src = 'img/hamburger-menu.png'; // Change src back to hamburger-menu.png
+            document.body.style.overflowY = 'auto'; // Re-enable vertical scrolling
         }
     });
 });

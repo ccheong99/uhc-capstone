@@ -81,6 +81,13 @@
     }
     section {
         width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .content {
+        width: 100% !important;
+        margin-left: 24px;
+        margin-right: 24px;
     }
     .header-button {
         margin-left: 24px;
@@ -96,6 +103,20 @@
     }
     .process-box-list {
         flex-direction: column !important;
+        width: 100% !important;
+    }
+    .process-box-list-row {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 24px !important;
+        width: 100% !important;
+    }
+    #process-box2 {
+        margin-top: 24px;
+    }
+    #process-box4 {
+        margin-top: 24px;
     }
     .row {
         flex-direction: column !important;
@@ -106,26 +127,24 @@
     }
     .section-text {
         width: 100% !important;
-        margin-left: 24px !important;
-        margin-right: 24px !important;
     }
     section p {
         width: 100% !important;
-        margin-left: 24px !important;
-        margin-right: 24px !important;
     }
     .page-heading {
         width: 100% !important;
-        margin-left: 24px !important;
-        margin-right: 24px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
     .page-heading-text {
         width: 100% !important;
     }
     .insight-list {
-        width: 100%;
-        margin-left: 24px;
-        margin-right: 24px;
+        width: 100% !important;
+    }
+    #insight-section {
+        padding-left: 24px;
+        padding-right: 24px;
     }
     .section-title {
         margin-left: 24px;
