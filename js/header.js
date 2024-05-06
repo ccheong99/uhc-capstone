@@ -42,18 +42,22 @@ function hasScrolled() {
 document.addEventListener('DOMContentLoaded', function () {
     const hamburgerMenu = document.getElementById('hamburger-menu');
     const expandingMenu = document.getElementById('expanding-menu');
-    const body = document.body;
-
+    const bodyElements = document.querySelectorAll('.body');
+    
     hamburgerMenu.addEventListener('click', function () {
         if (expandingMenu.style.display === 'none') {
             expandingMenu.style.display = 'flex';
             hamburgerMenu.src = 'img/close-button.png'; // Change src to close-button.png
-            body.classList.add('menu-expanded'); // Add class to body
+            bodyElements.forEach(element => {
+                element.style.display = 'none';
+            });
         } else {
             expandingMenu.style.display = 'none';
             hamburgerMenu.src = 'img/hamburger-menu.png'; // Change src back to hamburger-menu.png
             document.body.style.overflowY = 'auto'; // Re-enable vertical scrolling
-            body.classList.remove('menu-expanded'); // Remove class from body
+            bodyElements.forEach(element => {
+                element.style.display = '';
+            });
         }
     });
 });
