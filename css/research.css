@@ -76,6 +76,9 @@
         width: 100%;
         overflow-x: hidden;
     }
+    body.menu-expanded {
+        overflow: hidden !important;
+    }
     .body {
         width: 100% !important;
     }
