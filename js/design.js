@@ -57,4 +57,16 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
     }
+
+    /*const trigger = document.querySelector('.design-deep-dive-trigger');
+    const deepDiveSection = document.getElementById('design-deep-dive');
+
+    trigger.addEventListener('click', function() {
+        if (deepDiveSection.style.display === 'none' || deepDiveSection.style.display === '') {
+            deepDiveSection.style.display = 'block';
+        } else {
+            deepDiveSection.style.display = 'none';
+        }
+    });*/
+
 });

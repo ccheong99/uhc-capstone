@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     new fullpage('#fullpage', {
         autoScrolling: true,
         scrollHorizontally: false,
-        navigation: true,
+        navigation: false,
         scrollBar: true,
         afterLoad: function(origin, destination, direction) {
             // Hide all captions
