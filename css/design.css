@@ -192,6 +192,7 @@
     }
     .cura-video {
         width: 100%;
+        height: auto;
     }
 }
 
@@ -530,10 +531,22 @@ section p {
     margin-bottom: 20px;
     color: #EF3B42;
 }
-.cura-video {
+.cura-video-wrapper {
+    position: relative;
     width: 100%;
-    height: auto;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
 }
+.cura-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
 
 
 
