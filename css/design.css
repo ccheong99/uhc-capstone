@@ -180,6 +180,14 @@
     .cura-feature {
         width: 100% !important;
     }
+    .cura-feature-img {
+        display: none !important;
+    }
+    .cura-feature-img-mobile {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 32px !important;
+    }
     .cura-video-section {
         width: 100% !important;
     }
@@ -520,6 +528,9 @@ section p {
 .cura-feature-img {
     width: 100%;
     margin-bottom: 32px;
+}
+.cura-feature-img-mobile {
+    display: none;
 }
 .cura-video-section {
     width: 830px;
