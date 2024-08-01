@@ -131,8 +131,10 @@
     .process-box-list-row {
         width: 100% !important;
         flex-direction: column !important;
+        margin-top: 24px !important;
     }
-    #process-box3 {
+    #process-box2 {
+        margin-top: 24px;
     }
     #process-box4 {
         margin-top: 24px;
@@ -143,6 +145,16 @@
     .popup-content {
         margin-right: 0px;
         margin-left: 0px;
+    }
+    .popup1, .popup2, .popup3, .popup4 {
+        max-height: 100% !important;
+        width: 100% !important; 
+        border-radius: 0 !important;
+        padding: 24px !important;
+    }
+    .close-button {
+        margin-right: 12px;
+        margin-top: 20px;
     }
     .insight-list {
         width: 100% !important;
