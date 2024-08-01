@@ -127,10 +127,14 @@
     .process-box-list {
         width: 100% !important;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .process-box-list-row {
         width: 100% !important;
         flex-direction: column !important;
+        align-items: center;
+        justify-content: center;
         margin-top: 24px !important;
     }
     #process-box2 {
@@ -158,6 +162,25 @@
     }
     .insight-list {
         width: 100% !important;
+    }
+    .list-item {
+        padding-top: 24px !important;
+        padding-bottom: 24px !important;
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+    }
+    .list-item-top {
+        font-size: 14px !important;
+    }
+    .list-item-tag {
+        font-size: 13px !important;
+    }
+    .list-item-text {
+        font-size: 16px !important;
+    }
+    .expand-button {
+        width: 24px !important;
+        height: 24px !important;
     }
     #insight-section {
         padding-left: 24px;
