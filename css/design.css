@@ -100,15 +100,15 @@
         margin-left: 24px !important;
         margin-right: 24px !important;
     }
-    .principle-selection {
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-    }
     .section-text {
         width: 100% !important;
     }
     section p {
         width: 100% !important;
+    }
+    .section-title {
+        margin-left: 24px;
+        margin-right: 24px;
     }
     .page-heading {
         width: 100% !important;
@@ -124,12 +124,10 @@
         width: 100% !important;
     }
     .principle-selection {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
         margin-bottom: 54px;
         width: 100% !important;
-    }
-    .section-title {
-        margin-left: 24px;
-        margin-right: 24px;
     }
     .instruction-sheet-header {
         width: 100% !important;
