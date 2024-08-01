@@ -146,9 +146,10 @@
     .row {
         flex-direction: column !important;
     }
-    .popup-content {
-        margin-right: 0px;
-        margin-left: 0px;
+    #popup-content {
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+        margin-bottom: 20px;
     }
     .popup1, .popup2, .popup3, .popup4 {
         max-height: 100% !important;
@@ -156,9 +157,28 @@
         border-radius: 0 !important;
         padding: 24px !important;
     }
+    .popup-title {
+        text-align: center;
+    }
     .close-button {
         margin-right: 12px;
         margin-top: 20px;
+    }
+    #empathy-study-photo {
+        width: 100% !important;
+    }
+    #site-visit-photo {
+        width: 100% !important;
+    }
+    .goal-wrapper {
+        flex-direction: column;
+    }
+    .patient-facing-wrapper {
+        width: 100% !important;
+    }
+    .clinical-facing-wrapper {
+        margin-top: 20px;
+        width: 100% !important;
     }
     .insight-list {
         width: 100% !important;
@@ -590,6 +610,24 @@ section p {
 }
 .close-button {
     width: 32px;
+}
+#empathy-study-photo {
+    width: 80%;
+    margin-bottom: 40px;
+}
+#site-visit-photo {
+    width: 80%;
+    margin-bottom: 40px;
+}
+.goal-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.patient-facing-wrapper {
+    width: 47%;
+}
+.clinical-facing-wrapper {
+    width: 47%;
 }
 .carousel {
     position: relative;
