@@ -73,21 +73,11 @@
 
 @media only screen and (max-width: 600px) {
     body, html {
-        width: 100%;
         overflow-x: hidden;
+        width: 100% !important;
     }
     .body {
         width: 100% !important;
-    }
-    .content {
-        width: 100% !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-    section {
-        width: 100% !important;
-        padding-left: 0 !important;
-        padding-right: 0 !important;
     }
     .header-button {
         margin-left: 24px;
@@ -101,19 +91,35 @@
     .hamburger-menu {
         display: block !important;
     }
-    .process-box-list {
-        flex-direction: column !important;
+    section {
         width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin: 0;
     }
-    .process-box-list-row {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .content {
+        width: 100% !important;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .problem-box-list {
+        flex-direction: column !important;
+        align-items: center !important;
+        width: 100% !important;
+        margin-top: 24px !important;
+    }
+    .problem-box-item {
+        margin-top: 24px;
+    }
+    .problem-box-list-row {
         margin-top: 24px !important;
         width: 100% !important;
     }
     #process-box2 {
         margin-top: 24px;
+    }
+    #process-box3 {
+        margin-top: 24px !important;
     }
     #process-box4 {
         margin-top: 24px;
