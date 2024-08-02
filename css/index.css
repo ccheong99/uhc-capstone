@@ -294,7 +294,6 @@ a {
     font-family: 'circular_stdmedium';
     color: #EF3B42;
     position: relative;
-    z-index: 10;
     clip-path: text;
     margin-bottom: 40px;
 }

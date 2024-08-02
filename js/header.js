@@ -18,17 +18,12 @@ setInterval(function() {
 function hasScrolled() {
     var st = $(this).scrollTop();
     
-    // Make sure they scroll more than delta
     if(Math.abs(lastScrollTop - st) <= delta)
         return;
     
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
     if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
         $('header').removeClass('nav-down').addClass('nav-up');
     } else {
-        // Scroll Up
         if(st + $(window).height() < $(document).height()) {
             $('header').removeClass('nav-up').addClass('nav-down');
         }
@@ -44,10 +39,19 @@ document.addEventListener('DOMContentLoaded', function () {
     const expandingMenu = document.getElementById('expanding-menu');
     const bodyElements = document.querySelectorAll('.body');
     
+    const isIndexPage = window.location.pathname === '/index.html' || window.location.pathname === '/';
+
     hamburgerMenu.addEventListener('click', function () {
-        if (expandingMenu.style.display === 'none') {
+        if (expandingMenu.style.display === 'none' || expandingMenu.style.display === '') {
             expandingMenu.style.display = 'flex';
             hamburgerMenu.src = 'img/close-button.png'; // Change src to close-button.png
+            
+            if (isIndexPage) {
+                expandingMenu.style.backgroundColor = '#F4F4F4';
+            } else {
+                expandingMenu.style.backgroundColor = ''; // Reset to default or other color
+            }
+
             bodyElements.forEach(element => {
                 element.style.display = 'none';
             });
