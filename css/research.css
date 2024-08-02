@@ -190,13 +190,13 @@
         padding-left: 20px !important;
     }
     .list-item-top {
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
     .list-item-tag {
-        font-size: 13px !important;
+        font-size: 14px !important;
     }
     .list-item-text {
-        font-size: 16px !important;
+        font-size: 18px !important;
     }
     .expand-button {
         width: 24px !important;
@@ -205,6 +205,22 @@
     #insight-section {
         padding-left: 24px;
         padding-right: 24px;
+    }
+    .evidence {
+        align-items: top;
+    }
+    .evidence-tag {
+        width: 60px !important;
+    }
+    .evidence-icon {
+        width: 32px !important;
+    }
+    .evidence-tag-text {
+        display: none;
+    }
+    .evidence-text {
+        margin-left: 12px !important;
+        text-align: left !important;
     }
     #patient-journey-map{
         display: none;
@@ -751,9 +767,14 @@ section p {
     color: #EF3B42;
     font-family: 'circular_stdbold';
 }
+.evidence-icon {
+    width: 54px;
+    margin-bottom: 8px;
+}
 .evidence-text {
     margin-left: 32px;
     width: 100%;
+    text-align: center;
 }
 .insight-text {
     width: 100%;
