@@ -326,7 +326,7 @@ a {
     flex-direction: column;
     align-items: flex-end;
     justify-content: top;
-    z-index: 2;
+    z-index: 20;
 }
 
 .expanding-menu a {
