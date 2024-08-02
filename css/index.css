@@ -87,6 +87,24 @@
     body.menu-expanded {
         overflow: hidden !important;
     }
+    .title {
+        font-size: 32px !important;
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    #heading{
+        font-size: 14px !important;
+    }
+    #explanation{
+        font-size: 14px !important;
+        margin-bottom: 60px !important;
+    }
+    #explanation .hide-on-mobile {
+        display: none !important;
+    }
+    #scroll{
+        font-size: 14px !important;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -201,7 +219,7 @@ header {
 a {
     margin-right: 32px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .hamburger-menu {
@@ -248,7 +266,7 @@ a {
     height: 100vh;
     margin: 0;
     padding: 0;
-    background-color: #414141;
+    background-color: #F4F4F4;
 }
 
 .title-section {
@@ -268,13 +286,13 @@ a {
 .title-text {
     text-align: center;
     margin-bottom: 20px;
-    color: white;
+    color: black;
 }
 .title {
     text-align: center;
     font-size: 64px;
     font-family: 'circular_stdmedium';
-    color: white;
+    color: #EF3B42;
     position: relative;
     z-index: 10;
     clip-path: text;
@@ -287,6 +305,9 @@ a {
     font-family: 'circular_stdlight';
     width: 80%;
     margin-bottom: 72px;
+}
+#explanation .hide-on-mobile {
+    display: inline;
 }
 #scroll {
     font-family: 'circular_stdlight';
