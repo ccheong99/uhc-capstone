@@ -99,17 +99,17 @@
         margin-right: 24px !important;
     }
     #heading{
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
     #explanation{
-        font-size: 14px !important;
+        font-size: 16px !important;
         margin-bottom: 60px !important;
     }
     #explanation .hide-on-mobile {
         display: none !important;
     }
     #scroll{
-        font-size: 14px !important;
+        font-size: 16px !important;
     }
     #mobile-bottom-gif {
         display: block !important;
