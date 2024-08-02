@@ -106,10 +106,12 @@
         font-size: 14px !important;
     }
     .caption {
-        bottom: 24px !important;
+        bottom: 0px !important;
         left: 50%;
-        width: 80% !important;
+        width: 90% !important;
+        padding: 24px !important;
         transform: translateX(-50%);
+        border-top: solid #DEDEDE 1px;
     }
 }
 
@@ -349,13 +351,15 @@ a {
     bottom: 40px;
     right: 40px;
     width: 40%;
-    background: #EF3B42;
-    color: white;
+    color: black;
     padding: 20px;
     opacity: 0;
     transition: opacity 0.2s ease;
     z-index: 10;
     font-family: 'circular_stdlight';
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.7);
+    /*border: solid #DEDEDE 1px;*/
 }
 
 
