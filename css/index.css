@@ -75,9 +75,6 @@
     html {
         background-color: #FAFBFC !important;
     }
-    body {
-        padding-bottom: env(safe-area-inset-bottom);
-    }
     header {
         background-color: #F4F4F4 !important;
     }
