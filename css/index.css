@@ -72,6 +72,9 @@
 /*Responsive Design*/ 
 
 @media only screen and (max-width: 600px) {
+    body {
+        padding-bottom: env(safe-area-inset-bottom);
+    }
     .header-button {
         margin-left: 24px;
     }
@@ -210,7 +213,15 @@ header {
         -ms-flex-align: center;
             align-items: center;
     font-family: 'Merriweather', serif;
-    }
+}
+
+header.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #F4F4F4;
+}
 
 .header-button:hover {
     opacity: 50%;
