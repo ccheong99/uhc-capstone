@@ -105,6 +105,12 @@
     #scroll{
         font-size: 14px !important;
     }
+    .caption {
+        bottom: 24px !important;
+        left: 50%;
+        width: 80% !important;
+        transform: translateX(-50%);
+    }
 }
 
 @media only screen and (min-width: 600px) {
