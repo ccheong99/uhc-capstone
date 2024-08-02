@@ -359,7 +359,7 @@ a {
     transition: opacity 0.2s ease;
     z-index: 10;
     font-family: 'circular_stdlight';
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(8px);
     background: rgba(255, 255, 255, 0.7);
     /*border: solid #DEDEDE 1px;*/
 }

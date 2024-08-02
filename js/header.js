@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
         header.classList.add('fixed');
     }
 
-
     hamburgerMenu.addEventListener('click', function () {
         if (expandingMenu.style.display === 'none' || expandingMenu.style.display === '') {
             expandingMenu.style.display = 'flex';
@@ -22,18 +21,26 @@ document.addEventListener('DOMContentLoaded', function () {
                 expandingMenu.style.backgroundColor = ''; // Reset to default or other color
             }
 
+            // Disable vertical scrolling
+            document.body.style.overflow = 'hidden';
+
             bodyElements.forEach(element => {
                 element.style.display = 'none';
             });
         } else {
             expandingMenu.style.display = 'none';
             hamburgerMenu.src = 'img/hamburger-menu.png'; // Change src back to hamburger-menu.png
-            document.body.style.overflowY = 'auto'; // Re-enable vertical scrolling
+            
+            // Re-enable vertical scrolling
+            document.body.style.overflow = 'auto';
+
             bodyElements.forEach(element => {
                 element.style.display = '';
             });
         }
     });
+
+    
 });
 
 
