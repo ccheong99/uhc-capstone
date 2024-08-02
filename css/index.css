@@ -108,6 +108,15 @@
     #scroll{
         font-size: 14px !important;
     }
+    #mobile-bottom-gif {
+        display: block !important;
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: auto;
+    }
     .caption {
         bottom: 0px !important;
         left: 50%;
@@ -325,12 +334,26 @@ a {
     font-family: 'circular_stdlight';
     width: 80%;
     margin-bottom: 72px;
+    z-index: 1;
 }
 #explanation .hide-on-mobile {
     display: inline;
 }
 #scroll {
     font-family: 'circular_stdlight';
+    position: absolute;
+    bottom: 20px;
+}
+#bottom-gif {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30%;
+    height: auto;
+}
+#mobile-bottom-gif {
+    display: none;
 }
 
 .overlay {
