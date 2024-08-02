@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const hamburgerMenu = document.getElementById('hamburger-menu');
     const expandingMenu = document.getElementById('expanding-menu');
     const bodyElements = document.querySelectorAll('.body');
+    const footer = document.getElementById('footer-text'); // Select the footer element
     const header = document.querySelector('header');
 
     const isIndexPage = window.location.pathname === '/index.html' || window.location.pathname === '/';
@@ -97,6 +98,10 @@ document.addEventListener('DOMContentLoaded', function () {
             bodyElements.forEach(element => {
                 element.style.display = 'none';
             });
+
+            if (footer) {
+                footer.style.display = 'none'; // Hide footer
+            }
         } else {
             expandingMenu.style.display = 'none';
             hamburgerMenu.src = 'img/hamburger-menu.png'; // Change src back to hamburger-menu.png
@@ -107,6 +112,10 @@ document.addEventListener('DOMContentLoaded', function () {
             bodyElements.forEach(element => {
                 element.style.display = '';
             });
+
+            if (footer) {
+                footer.style.display = ''; // Show footer
+            }
         }
     });
 });
