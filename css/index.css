@@ -267,7 +267,7 @@ a {
     left: 0;
     width: 100%;
     height: calc(100% - 88px);
-    background-color: #FAFAFA;
+    background-color: #F4F4F4;
     display: none;
     flex-direction: column;
     align-items: flex-end;
