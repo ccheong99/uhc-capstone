@@ -118,6 +118,14 @@
     .page-heading-text {
         width: 100% !important;
     }
+    .page-heading-img {
+        display: none !important;
+    }
+    .mobile-page-heading-img {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 80px;
+    }
     .principle-list {
         margin-top: 72px;
         display: block !important;
@@ -373,7 +381,14 @@ a {
     font-family: 'circular_stdbook';
     font-size: 16px;
     line-height: 140%;
+    margin-bottom: 40px;
+}
+.page-heading-img {
+    width: 720px;
     margin-bottom: 80px;
+}
+.mobile-page-heading-img {
+    display: none;
 }
 section {
     padding-right: 160px;
